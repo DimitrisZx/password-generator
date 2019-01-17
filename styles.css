@@ -1,0 +1,43 @@
+input[type=checkbox], input[type=radio] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:5rem;
+}
+#left {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid grey;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+  
+}
+#right {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+   
+}
+
+#passoptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+output {
+    display: block;
+}
+
+.inputfield {
+    align-items: center;
+    border-top: grey 1px solid;
+    padding-top: 5px;
+}
